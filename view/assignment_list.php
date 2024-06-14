@@ -49,7 +49,7 @@
     <input type="hidden" name="action" value="add_assignment">
     <div class="add__inputs">
       <label>Course:</label>
-      < name="course_id" required >
+      <select name="course_id" required >
         <option value="">Please Select</option>
         <?php foreach($courses as $course): ?>
           <option value="<?= $course['courseID']; ?>">
