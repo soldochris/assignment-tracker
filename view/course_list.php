@@ -24,7 +24,7 @@
 <?php }?>
 <section id="add" class="add">
   <h2>Add Course</h2>
-  <form action="." method="post">
+  <form action="." method="post" id="add__form" class="add__form">
     <input type="hidden" name="action" value="add_course">
     <div class="add__inputs">
       <label>Course Name:</label>
@@ -35,5 +35,6 @@
     </div>
   </form>
 </section>
+<br>
 <p><a href=".">view &amp; Add Assignments</a></p>
 <?php include ('view/footer.php') ?>

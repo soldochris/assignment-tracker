@@ -1,6 +1,6 @@
 <?php include('view/header.php');?>
 <section id="list" class="list">
-  <header class="list__row list__listheader">
+  <header class="list__row list__header">
     <h1>Assignments</h1>
     <form action="." method="get" id="list__header_select" class="list__header_select">
       <input type="hidden" name="action" value="list_assignments">
@@ -45,7 +45,7 @@
 </section>
 <section id="add" class="add">
   <h2>Add Assignment</h2>
-  <form action="." method="post" id="add__form" class="add_form">
+  <form action="." method="post" id="add__form" class="add__form">
     <input type="hidden" name="action" value="add_assignment">
     <div class="add__inputs">
       <label>Course:</label>
@@ -65,5 +65,6 @@
     </div>
   </form>
 </section>
+<br>
 <p><a href=".?action=list_courses">View/Edit Courses</a></p>
 <?php include('view/footer.php');?>

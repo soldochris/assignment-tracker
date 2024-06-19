@@ -10,4 +10,3 @@
     include('view/error.php');
     exit();
   }
-?>
